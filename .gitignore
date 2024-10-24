@@ -1,0 +1,42 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# Compiled object files
+*.o
+*.a
+*.out
+
+# Build directories
+/build/
+/bin/
+
+# Dependency directories
+/vendor/
+node_modules/
+
+# Log and debug files
+*.log
+*.trace
+
+# Go module files
+go.sum
+go.work
+
+# Editor and OS specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Docker-related files
+.env
+*.pid
+docker-compose.override.yml
